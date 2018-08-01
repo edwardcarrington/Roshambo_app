@@ -56,7 +56,7 @@ public class RoshamboApp {
 
 		System.out.println(input);
 		System.out.println(computerOutput);
-		System.out.println("Congrats to the winner!");
+		whoWon(input, computerOutput);
 	}
 
 	public static void whoWon(Roshambo input, Roshambo output) {
